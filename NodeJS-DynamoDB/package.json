@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-dynamodb",
+  "version": "1.0.0",
+  "description": "nodejs with dynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Alejandro Zambrano Cisneros",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.991.0"
+  }
+}
