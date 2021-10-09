@@ -1,0 +1,27 @@
+### Get All Movies
+GET http://localhost:3000/movies HTTP/1.1
+
+### Get one Movie
+GET http://localhost:3000/movies/94edd0e7-87ef-4dc7-9441-486befb00b35 HTTP/1.1
+
+### New Movie
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Daniel Alejandro Zambrano",
+    "authors": [{"name":"Solovino"}]
+}
+
+### Put Movie
+PUT http://localhost:3000/movies/8fcdc05a-d21b-4494-89eb-e19fcf351524 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Daniel Alejandro Zambrano",
+    "authors": [{"name":"Solovino"}]
+}
+
+
+### Delete one Movie
+DELETE http://localhost:3000/movies/94edd0e7-87ef-4dc7-9441-486befb00b35 HTTP/1.1
