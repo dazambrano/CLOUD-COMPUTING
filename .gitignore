@@ -1,3 +1,4 @@
 /NodeJS-DynamoDB/node_modules
 /nest-dynamodb/node_modules
 /nest-dynamodb/dist
+/nest-dynamodb/.env
